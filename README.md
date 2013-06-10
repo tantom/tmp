@@ -6,4 +6,5 @@ tmp
 ioreg -lw0 | grep \"EDID\" | sed "/[^<]*</s///" | xxd -p -r | strings -6
  
  
-LP LG LSN samsung
+LPXXXXX-XXXX -> LG 屏幕
+LSXXXXX-XXXX -> Samsung 屏幕
